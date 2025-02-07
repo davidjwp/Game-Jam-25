@@ -28,5 +28,8 @@ shadow_enabled = true
 [node name="Player" parent="." instance=ExtResource("1_obvpp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.56738)
 
-[node name="Floor(tile_size_ref)" parent="." instance=ExtResource("1_t1x6i")]
-transform = Transform3D(9.5497, 0, 0, 0, 0.41107, 0, 0, 0, 13.229, 0, 0, -3.62136)
+[node name="Tile" parent="." instance=ExtResource("1_t1x6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0244944, 0.152787, -0.900637)
+
+[node name="Tile2" parent="." instance=ExtResource("1_t1x6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0244944, 0.152787, -10.9603)
